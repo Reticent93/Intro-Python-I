@@ -14,8 +14,13 @@ y = "7"
 # Write a print statement that combines x + y into the integer value 12
 
 # YOUR CODE HERE
-
+print(5 + int("7"))
 
 # Write a print statement that combines x + y into the string value 57
 
 # YOUR CODE HERE
+print(str(x) + y)
+
+s = ["Joe", "2", "Ted", "4.98", "14", "Sam", "void *", "42", "float", "pointers", "5006"]
+
+print("\n".join(s))
